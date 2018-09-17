@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">OnTrack TEST</string>
+    <string name="income_sum">All Income:</string>
+    <string name="savings">Savings:</string>
+    <string name="necessary">Necessary:</string>
+    <string name="leftover">Leftover:</string>
+    <string name="daily_avg">Daily Budget:</string>
+    <string name="daily_budget">Left for Today:</string>
+    <string name="history">History:</string>
+    <string name="nec_but">Add Necessary</string>
+    <string name="day_button">Add Daily</string>
+    <string name="nday_button">Add Daily</string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="apply_oth_day">Apply</string>
+    <string name="chng_other_day">Change Specific Day Value: </string>
+    <string name="add_today_exp">Add Expense for Today:</string>
+
+    <string name="hint_day">Day</string>
+    <string name="hint_amount">Amount</string>
+
+    <string name="popup_message">Это приложение позволяет Вам производить учет и планирование расходов на месяц.
+        Внесите весь Ваш суммарный доход за месяц в поле "AllIncome", выберите процент дохода который хотите откладывать каждый месяц ползунком "Savings".
+        Внесите обязательные расходы в поле "Necessary". приложение автоматически рассчитает ваш бюджет на день.
+        Нажмите на "+" в нижнем правом углу экрана, чтобы добавить текущий или обязательный расход. Также можно изменить значение текущих расходов за прошедшие дни.
+        Нажатие кнопки "AddNecessary" добавит обязательный расход, его стоимость будет равномерно распределена по всем дням, нажатие кнопки "Add Daily"
+        добавит текущий расход, который будет вычтен из бюджета на текущий день. Остаток или перерасход бюджета за прошлые дни учитывается при расчете бюджета на сегодняшний день.
+    </string>
+
+    <string name="settings_main">Settings</string>
+
+
+    <string name="help">Help</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>
